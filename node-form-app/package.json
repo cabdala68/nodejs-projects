@@ -1,0 +1,21 @@
+{
+  "name": "form-app",
+  "version": "1.0.0",
+  "description": "- This project is buildt with **Node.js** and the **Express framework** to:   build a simple registration form with basic validation, which persists its data to a **MongoDB** database. - Later, a view to list successful registration will be added, which weill be protected   with basic **HTTP authentication**, and also **Bootstrap** will be added for styling.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
